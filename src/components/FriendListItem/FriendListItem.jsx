@@ -1,7 +1,7 @@
 import css from "../FriendListItem/FriendListItem.module.css";
 import clsx from "clsx";
 export default function FriendListItem({
-  friends: { avatar, name, isOnline },
+  friend: { avatar, name, isOnline },
 }) {
   return (
     <div className={css.friend}>
